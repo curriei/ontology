@@ -31,7 +31,32 @@ Run the command "mvn clean install" before running the project. This command wil
     
     6. IGraph.java: This is the interface which implements the Graph class.
     
+## Datasets used:
 
+    1. Clinical trials dataset:
+    
+     http://www.cs.toronto.edu/~oktie/linkedct/
+     
+     Ontology references:
+     
+        a) https://countrycode.org/ (Countrycode ontology)
+        
+        b) https://bioportal.bioontology.org/ontologies (Medical ontology)
+
+        c) https://data.medicare.gov (Medical ontology)
+
+        d) https://www.medicare.gov/hospitalcompare/Data/Data-Download.html (Medical ontology)
+
+    2. Census dataset:
+    
+    https://archive.ics.uci.edu/ml/datasets/Census+Income
+    
+     Ontology references:
+     
+        a) https://countrycode.org/ (Countrycode ontology)
+        
+        b) http://www.bbc.co.uk/ontologies/coreconcepts (Occupation ontology)
+        
      
 
 
