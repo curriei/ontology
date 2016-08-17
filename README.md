@@ -1,13 +1,13 @@
 
-1. Requirements for running the code:
+## Requirements for running the code:
 
 Java 8 64-bit, Maven 3.0.3 (m2eclipse plugin if you plan to use Eclipse)
 
-2. Maven clean installation:
+## Maven clean installation:
 
 Run the command "mvn clean install" before running the project. This command will clean the code and make it ready for execution.
 
-3. Files in src/main/java:
+## Files in src/main/java:
 
 -- For Ontology Synonyms algorithm
 
