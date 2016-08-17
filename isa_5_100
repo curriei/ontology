@@ -1,6 +1,0 @@
-country->countrycode
-country->medicine
-disease->medicine
-status->medicine
-countrycode->country
-countrycode->medicine
