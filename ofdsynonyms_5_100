@@ -1,5 +1,0 @@
-country->countrycode
-[country, medicine, status]->disease
-countrycode->country
-[disease, countrycode, status]->medicine
-[countrycode, medicine, status]->disease
