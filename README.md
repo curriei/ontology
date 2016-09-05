@@ -31,6 +31,26 @@ Run the command "mvn clean install" before running the project. This command wil
     
     6. IGraph.java: This is the interface which implements the Graph class.
     
+## How to run the code:
+
+    1. Ontology Synonyms algorithm:
+        
+        -- EquivalenceListofList.java and Canonical.java are the supporting files for OFDSynonyms algorithm.
+        
+        -- EquivalenceListofList.java: 
+                
+            -- findEquivalence() is the method in this class that computes the equivalence classes.
+            -- In findEquivalence(), there is a separate query for each attribute in the relation.
+            -- For example, "String sql = "SELECT disease FROM clinicaltrials"". Like this query, there is a separate query for each attribute in the relation. This query will extract the data for the specific column from the clinicaltrials table.
+            -- Then the result gets transformed to compute the equivalence classes for each attribute in the relation.
+            -- This file has to be edited based on the varied attributes in the relation.
+    
+        -- Canonical.java:
+        
+            -- In Canonical.java, we have a separate method for each attribute in the relation for computing the canonical classes.
+            -- For example, for the disease attribute in clinicaltrials table, we have a method findCanonicalDisease() that computes the canonical class for the disease attribute.
+            
+    
 ## Datasets used:
 
     1. Clinical trials dataset:
