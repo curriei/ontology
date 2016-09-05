@@ -33,7 +33,9 @@ Run the command "mvn clean install" before running the project. This command wil
     
 ## How to run the code:
 
-    1. Ontology Synonyms algorithm:
+    1. Download the datasets from the folder and create schemas in MySQL database. Then establish the connection to the database from the .java file by providing the connection parameters such as url, username and password.
+
+    2. Ontology Synonyms algorithm:
         
         -- EquivalenceListofList.java and Canonical.java are the supporting files for OFDSynonyms algorithm.
         
@@ -52,7 +54,7 @@ Run the command "mvn clean install" before running the project. This command wil
             
         -- Run the file OFDSynonyms.java 
         
-    2. Ontology Inheritance Algorithm:
+    3. Ontology Inheritance Algorithm:
     
         -- EquivalenceListofList.java and Canonical.java are the supporting files for OFDISA algorithm for computing equivalence and canonical classes.
         
