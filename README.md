@@ -50,6 +50,19 @@ Run the command "mvn clean install" before running the project. This command wil
             -- In Canonical.java, we have a separate method for each attribute in the relation for computing the canonical classes.
             -- For example, for the disease attribute in clinicaltrials table, we have a method findCanonicalDisease() that computes the canonical class for the disease attribute.
             
+        -- Run the file OFDSynonyms.java 
+        
+    2. Ontology Inheritance Algorithm:
+    
+        -- EquivalenceListofList.java and Canonical.java are the supporting files for OFDISA algorithm for computing equivalence and canonical classes.
+        
+        -- IO.Java: This is the file where the ontology graph is built. This is where the value of threshold is set in the variabel "THRESHOLD".
+        
+        -- OntologyISA.java - This is the file which computes the list of ancestors for each node and then computes the Least Common Ancestor for each node in the graph.
+        
+        -- In the Graph folder, there is a class called Traversal.java that traverses the tree in BFS fashion.
+        
+        -- Create these files and then run the main program OFDISA.java
     
 ## Datasets used:
 
