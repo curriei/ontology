@@ -7,6 +7,18 @@ Java 8 64-bit, Maven 3.0.3 (m2eclipse plugin if you plan to use Eclipse)
 
 Run the command "mvn clean install" before running the project. This command will clean the code and make it ready for execution.
 
+## Datasets for our experiments:
+
+Download link : https://drive.google.com/open?id=0B6Ti4BUq0pv5TnJaaE1XcUlzV1k
+
+Unzip the files and upload it to mysql database.
+
+## Setting up MySql database:
+
+Create two tables in MySql database - Clinicaltrials and Census.
+
+Import the two excel files in the respective tables.
+
 ## Files in src/main/java:
 
 -- For Ontology Synonyms algorithm
@@ -33,7 +45,7 @@ Run the command "mvn clean install" before running the project. This command wil
     
 ## How to run the code:
 
-    1. Download the datasets from the folder and create schemas in MySQL database. Then establish the connection to the database from the .java file by providing the connection parameters such as url, username and password.
+    1. Download the datasets from the folder and create two tables in MySQL database. Then establish the connection to the database from the .java file by providing the connection parameters such as url, username and password.
 
     2. Ontology Synonyms algorithm:
         
