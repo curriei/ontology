@@ -78,13 +78,9 @@ Import the two excel files in the respective tables.
         
         -- Create these files and then run the main program OFDISA.java
     
-## Datasets used:
+## Ontology references:
 
-    1. Clinical trials dataset:
-    
-     http://www.cs.toronto.edu/~oktie/linkedct/
-     
-     Ontology references:
+     Ontologies for Clinical trials dataset:
      
         a) https://countrycode.org/ (Countrycode ontology)
         
@@ -94,12 +90,8 @@ Import the two excel files in the respective tables.
 
         d) https://www.medicare.gov/hospitalcompare/Data/Data-Download.html (Medical ontology)
 
-    2. Census dataset:
-    
-    https://archive.ics.uci.edu/ml/datasets/Census+Income
-    
-     Ontology references:
-     
+     Ontologies for Census dataset:
+
         a) https://countrycode.org/ (Countrycode ontology)
         
         b) http://www.bbc.co.uk/ontologies/coreconcepts (Occupation ontology)
